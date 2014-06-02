@@ -26,7 +26,8 @@ public partial class _Default : System.Web.UI.Page
 
         ManageCustomer mc = new ManageCustomer();
               
-            mc.WriteCustomer(c);                       
-            Response.Redirect("Welcome.aspx");                                                
+            mc.WriteCustomer(c);
+            Response.Redirect("LoginForm.aspx");
+                                                                       
     }
 }

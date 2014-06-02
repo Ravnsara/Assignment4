@@ -48,8 +48,7 @@ public class ManageCustomer
 
         connect.Open();        
         personCmd.ExecuteNonQuery();        
-        addressCmd.ExecuteNonQuery();        
-             
+        addressCmd.ExecuteNonQuery();                     
         connect.Close();
     }
 }
